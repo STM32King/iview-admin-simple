@@ -49,7 +49,7 @@ export default [
       }
     ]
   },
-  {
+  { // 文档
     path: '',
     name: 'doc',
     meta: {
@@ -58,7 +58,7 @@ export default [
       icon: 'ios-book'
     }
   },
-  {
+  { // 模仿首页
     path: 'owner',
     name: '_owner',
     component: Main,
@@ -95,7 +95,7 @@ export default [
           icon: 'md-funnel',
           title: '市政府店'
         },
-        component: () => import('@/view/moretab/WYF-001.vue')
+        component: () => import('@/view/moretab/WYF-001.vue') // 请注意路径
       },
       {
         path: 'WYF-002',
@@ -109,7 +109,7 @@ export default [
     ]
   },
   {
-    path: '/multilevel',  // 原生多级菜单
+    path: '/multilevel', // 原生多级菜单
     name: 'multilevel',
     meta: {
       icon: 'md-menu',

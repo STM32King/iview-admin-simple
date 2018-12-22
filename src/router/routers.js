@@ -150,6 +150,15 @@ export default [
           title: 'tabs 标签页'
         },
         component: () => import('@/view/iview-element/tabs.vue')
+      },
+      {
+        path: 'dropdown',
+        name: 'dropdown',
+        meta: {
+          icon: 'md-funnel',
+          title: 'dropdown 下拉菜单'
+        },
+        component: () => import('@/view/iview-element/dropdown.vue')
       }
     ]
   },

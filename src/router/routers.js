@@ -159,6 +159,42 @@ export default [
           title: 'dropdown 下拉菜单'
         },
         component: () => import('@/view/iview-element/dropdown.vue')
+      },
+      {
+        path: 'page',
+        name: 'page',
+        meta: {
+          icon: 'md-funnel',
+          title: 'page 分页'
+        },
+        component: () => import('@/view/iview-element/page.vue')
+      },
+      {
+        path: 'breadcrumb',
+        name: 'breadcrumb',
+        meta: {
+          icon: 'md-funnel',
+          title: 'breadcrumb 面包屑'
+        },
+        component: () => import('@/view/iview-element/breadcrumb.vue')
+      },
+      {
+        path: 'badge',
+        name: 'badge',
+        meta: {
+          icon: 'md-funnel',
+          title: 'badge 微标数'
+        },
+        component: () => import('@/view/iview-element/badge.vue')
+      },
+      {
+        path: 'anchor',
+        name: 'anchor',
+        meta: {
+          icon: 'md-funnel',
+          title: 'anchor 锚点'
+        },
+        component: () => import('@/view/iview-element/anchor.vue')
       }
     ]
   },

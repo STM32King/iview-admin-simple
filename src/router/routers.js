@@ -80,6 +80,80 @@ export default [
     ]
   },
   {
+    path: '/iview-element',
+    name: 'iview-element',
+    meta: {
+      icon: 'md-menu',
+      title: 'iview 组件' // 多个界面
+    },
+    component: Main,
+    children: [
+      {
+        path: 'card',
+        name: 'card',
+        meta: {
+          icon: 'md-funnel',
+          title: 'Card 卡片'
+        },
+        component: () => import('@/view/iview-element/card.vue') // 请注意路径
+      },
+      {
+        path: 'collapse',
+        name: 'collapse',
+        meta: {
+          icon: 'md-funnel',
+          title: 'collapse 折叠面板'
+        },
+        component: () => import('@/view/iview-element/collapse.vue')
+      },
+      {
+        path: 'split',
+        name: 'split',
+        meta: {
+          icon: 'md-funnel',
+          title: 'split 面板分割'
+        },
+        component: () => import('@/view/iview-element/split.vue')
+      },
+      {
+        path: 'divider',
+        name: 'divider',
+        meta: {
+          icon: 'md-funnel',
+          title: 'divider 分割线'
+        },
+        component: () => import('@/view/iview-element/divider.vue')
+      },
+      {
+        path: 'cell',
+        name: 'cell',
+        meta: {
+          icon: 'md-funnel',
+          title: 'cell 单元格'
+        },
+        component: () => import('@/view/iview-element/cell.vue')
+      },
+      {
+        path: 'menu',
+        name: 'menu',
+        meta: {
+          icon: 'md-funnel',
+          title: 'menu 单元格'
+        },
+        component: () => import('@/view/iview-element/menu.vue')
+      },
+      {
+        path: 'tabs',
+        name: 'tabs',
+        meta: {
+          icon: 'md-funnel',
+          title: 'tabs 标签页'
+        },
+        component: () => import('@/view/iview-element/tabs.vue')
+      }
+    ]
+  },
+  {
     path: '/moretab',
     name: 'moretab',
     meta: {

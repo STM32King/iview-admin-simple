@@ -321,6 +321,60 @@ export default [
           title: 'rate   等级'
         },
         component: () => import('@/view/iview-element/rate.vue')
+      },
+      {
+        path: 'from',
+        name: 'from',
+        meta: {
+          icon: 'md-funnel',
+          title: 'form   表单'
+        },
+        component: () => import('@/view/iview-element/form.vue')
+      },
+      {
+        path: 'message',
+        name: 'message',
+        meta: {
+          icon: 'md-funnel',
+          title: 'message   全局提示'
+        },
+        component: () => import('@/view/iview-element/message.vue')
+      },
+      {
+        path: 'notice',
+        name: 'notice',
+        meta: {
+          icon: 'md-funnel',
+          title: 'notice   全局提示'
+        },
+        component: () => import('@/view/iview-element/notice.vue')
+      },
+      {
+        path: 'modal',
+        name: 'modal',
+        meta: {
+          icon: 'md-funnel',
+          title: 'modal   对话框'
+        },
+        component: () => import('@/view/iview-element/modal.vue')
+      },
+      {
+        path: 'avatar',
+        name: 'avatar',
+        meta: {
+          icon: 'md-funnel',
+          title: 'avatar   对话框'
+        },
+        component: () => import('@/view/iview-element/avatar.vue')
+      },
+      {
+        path: 'carousel',
+        name: 'carousel',
+        meta: {
+          icon: 'md-funnel',
+          title: 'carousel   走马灯'
+        },
+        component: () => import('@/view/iview-element/carousel.vue')
       }
     ]
   },

@@ -195,6 +195,132 @@ export default [
           title: 'anchor 锚点'
         },
         component: () => import('@/view/iview-element/anchor.vue')
+      },
+      {
+        path: 'stsps',
+        name: 'steps',
+        meta: {
+          icon: 'md-funnel',
+          title: 'steps 步骤条'
+        },
+        component: () => import('@/view/iview-element/steps.vue')
+      },
+      {
+        path: 'loading',
+        name: 'loading',
+        meta: {
+          icon: 'md-funnel',
+          title: 'loading  加载进度条'
+        },
+        component: () => import('@/view/iview-element/loading.vue')
+      },
+      {
+        path: 'input',
+        name: 'input',
+        meta: {
+          icon: 'md-funnel',
+          title: 'input 输入框'
+        },
+        component: () => import('@/view/iview-element/input.vue')
+      },
+      {
+        path: 'radio',
+        name: 'radio',
+        meta: {
+          icon: 'md-funnel',
+          title: 'radio  单选框'
+        },
+        component: () => import('@/view/iview-element/radio.vue')
+      },
+      {
+        path: 'checkbox',
+        name: 'checkbox',
+        meta: {
+          icon: 'md-funnel',
+          title: 'checkbox  多选框'
+        },
+        component: () => import('@/view/iview-element/checkbox.vue')
+      },
+      {
+        path: 'switch',
+        name: 'switch',
+        meta: {
+          icon: 'md-funnel',
+          title: 'switch  开关'
+        },
+        component: () => import('@/view/iview-element/switch.vue')
+      },
+      {
+        path: 'table',
+        name: 'table',
+        meta: {
+          icon: 'md-funnel',
+          title: 'table  表格'
+        },
+        component: () => import('@/view/iview-element/table.vue')
+      },
+      {
+        path: 'select',
+        name: 'select',
+        meta: {
+          icon: 'md-funnel',
+          title: 'select  选择器'
+        },
+        component: () => import('@/view/iview-element/select.vue')
+      },
+      {
+        path: 'autocomplete',
+        name: 'autocomplete',
+        meta: {
+          icon: 'md-funnel',
+          title: 'autocomplete  选择器'
+        },
+        component: () => import('@/view/iview-element/autocomplete.vue')
+      },
+      {
+        path: 'datepicker',
+        name: 'datepicker',
+        meta: {
+          icon: 'md-funnel',
+          title: 'datepicker  日期选择器'
+        },
+        component: () => import('@/view/iview-element/datepicker.vue')
+      },
+      {
+        path: 'timepicker',
+        name: 'timepicker',
+        meta: {
+          icon: 'md-funnel',
+          title: 'timepicker  时间选择器'
+        },
+        component: () => import('@/view/iview-element/timePicker.vue')
+      },
+      {
+        path: 'cascader',
+        name: 'cascader',
+        meta: {
+          icon: 'md-funnel',
+          title: 'cascader  级联选择器'
+        },
+        component: () => import('@/view/iview-element/cascader.vue')
+      },
+      {
+        path: 'InputNumber',
+        name: 'InputNumber',
+        meta: {
+          icon: 'md-funnel',
+          title: 'InputNumber   数字输入框'
+        },
+        component: () => import('@/view/iview-element/InputNumber.vue')
+      },
+      {
+        path: 'rate',
+        name: 'rate',
+        meta: {
+          icon: 'md-funnel',
+          title: 'rate   等级'
+        },
+        component: () => import('@/view/iview-element/rate.vue')
       }
     ]
   },
